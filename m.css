@@ -1,0 +1,418 @@
+a{ font-size: 1vw; cursor: pointer;}
+p{font-size: 1.5vw;position: absolute; top: 0.5vw; left: 30VW; text-size-adjust: 3VW; color: white;}
+*{
+    margin:0;padding: 0;
+
+}
+body {
+    height: 260vw;
+    background-repeat: no-repeat;
+    background-size: 700vw;
+}
+
+
+
+
+.slider {
+    width: 35.5vw;
+    height: 25vw;
+    overflow: hidden;
+   
+}
+.middle {
+    position: absolute;
+    top: 7.7vw;
+    left: 37vw; 
+    transform: translate(-5vw, -5vw);
+}
+.navy {
+    position: absolute;
+    bottom: 0.8vw; 
+    left: 15VW;
+    transform: translateX(-8vw); 
+    display: flex;
+}
+.bar {
+    padding: 0.1vw 1vw 0.1vw 1vw;
+    font-size: 1vw;
+      margin: 0.5vw;
+      cursor: pointer;
+      background-color: #ddd;
+      opacity: 0.8;
+      border-radius: 0.5vw;
+      transition: all .4s ease;
+}
+.bar:hover {
+    opacity: 1; 
+    transform: scale(1.1)
+}
+
+.slides {
+    width: 140vw;
+    height: 15vw;
+    display: flex;
+}
+.slide  {
+    width: 35vw;
+    height: 15vw;
+    transition: all 2s ease; 
+}
+.slide img {
+    width: 35vw;
+    height: 30vw;
+}
+#r1:checked ~ .s1{
+    margin-left: 0vw;
+}
+#r2:checked ~ .s1 {
+    margin-left: -35.7vw;
+}
+#r3:checked ~ .s1 {
+    margin-left: -70.5vw;
+}
+#r4:checked ~ .s1 {
+    margin-left: -105.5vw;
+}
+.input[name="r"]{
+    position:absolute;
+    visibility: hidden;
+}
+#r1 { visibility: hidden}
+#r2 { visibility: hidden}
+#r3 { visibility: hidden}
+#r4 { visibility: hidden}
+
+
+
+
+#main {
+    font-size: 0.8vw;
+    position: absolute;
+    top: 1VW;
+    left: 4VW;
+    text-emphasis-color: white;
+}
+#Late {position: absolute; top: 0vw; left: 0vw;}
+a{text-decoration: none; color: white;}
+.bez {width: 99vw; height: 2.6vw; position: absolute; top: 0vw; left: 0vw; opacity: 0.9;}
+.bb {width: 99vw; height: 71vw; position: absolute; top: 2.5vw; left: 0vw; opacity: 0.5;filter: grayscale(1);transition: 1s;}
+    .bb:hover {filter: grayscale(0);}
+.beb {position: absolute; top: 60vw;filter: grayscale(1);transition: 1s; width: 99.1vw; }
+    .beb:hover {filter: grayscale(0);}
+.bed {position: absolute; top: 129vw;filter: grayscale(1);transition: 1s; width: 99.1vw; opacity: 0.7; height: 50vw;}
+    .bed:hover {filter: grayscale(0); opacity: 1;}
+.ded {position: absolute; top: 188vw;filter: grayscale(1);transition: 1s; width: 99.1vw; opacity: 0.7;}
+    .bed:hover {filter: grayscale(0); opacity: 1;}
+.det {position: absolute; top: 243vw;filter: grayscale(1);transition: 1s;height: 68vw; width: 99.1vw; opacity: 0.7;}
+    .bed:hover {filter: grayscale(0); opacity: 1;}
+.zet {width: 98.8vw; height: 7vw; position: absolute; top: 294vw; left: -9vw;}
+#Line {border-bottom: 6px; border-color: brown; position: absolute; top: 3vw; left: 5vw;text-emphasis-color: white}
+
+#Name {font-size: 3vw;position: absolute; top: 28vw; left: 2VW;color: white; }
+#Time {font-size: 3vw;position: absolute; top: 33vw; left: 32VW;color: white; }
+
+
+#first-reih {position: absolute; top: 218vw; left: 8vw; font-size: 1vw;}
+#log {position: absolute; top: 223vw; left: 8vw; font-size: 1vw;}
+#pas {position: absolute; top: 228vw; left: 8vw;font-size: 1vw;}
+#rg {position: absolute; top: 218vw; left: 6vw;color: white;font-size: 1vw;}
+#lg {position: absolute; top: 223vw; left: 6vw;color: white;font-size: 1vw;}
+#ps {position: absolute; top: 228vw; left: 6.5vw; color: white;font-size: 1vw;}
+
+
+
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8vw;
+    font-size: 0.8vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #808080;
+    min-width: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+    .dropdown-content a {
+        color: black;
+        padding: 3vw;
+        text-decoration: none;
+        display: block;
+    }
+
+
+        .dropdown-content a:hover {
+            background-color: darkgray;
+        }
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+#wwwwe {
+    position: absolute; top: 124vw;left: 35vw;font-size: 5vw;color: white;
+}
+
+
+
+.dropbtn2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2vw 5vw 2vw 5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown2 {
+
+    display: inline-block; 
+    position: absolute;  top: 145vw;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content2 a {
+        color: black;
+        padding: 0.5vw 7vw 0.5vw 7vw;
+        text-decoration: none;
+        display: block;
+    }
+
+
+        .dropdown-content2 a:hover {
+            background-color: darkgray;
+        }
+
+
+#dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+
+#dropdown2:hover .dropbtn2 {
+    background-color: #3e8e41;
+}
+
+
+
+
+.dropbtn3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2vw 5vw 2vw 5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+    position:absolute; top: 150.5vw;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content3 a {
+        color: black;
+        padding: 0.5vw 7vw 0.5vw 7vw;
+        text-decoration: none;
+        display: block;
+    }
+
+
+        .dropdown-content3 a:hover {
+            background-color: darkgray;
+        }
+
+
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+
+.dropdown3:hover .dropbtn3 {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+.dropbtn4 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2vw 5vw 2vw 5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown4 {
+    position: relative;
+    display: inline-block;
+    position:absolute; top: 156vw; 
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content4 a {
+        color: black;
+        padding: 0.5vw 7vw 0.5vw 7vw;
+        text-decoration: none;
+        display: block;
+    }
+
+
+        .dropdown-content4 a:hover {
+            background-color: darkgray;
+        }
+
+
+.dropdown4:hover .dropdown-content4 {
+    display: block;
+}
+
+
+.dropdown4:hover .dropbtn4 {
+    background-color: #3e8e41;
+}
+
+.dropbtn5 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2vw 5vw 2vw 5vw;
+    font-size: 1vw;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown5 {
+    position: relative;
+    display: inline-block;
+    position:absolute; top: 161.5vw;
+}
+
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: gray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content5 a {
+        color: black;
+        padding: 0.5vw 7vw 0.5vw 7vw;
+        text-decoration: none;
+        display: block;
+    }
+
+
+        .dropdown-content5 a:hover {
+            background-color: darkgray;
+        }
+
+
+.dropdown5:hover .dropdown-content5 {
+    display: block;
+}
+
+
+.dropdown5:hover .dropbtn5 {
+    background-color: #3e8e41;
+}
+
+
+
+
+#Big{ position: absolute; top:60.5vw; left:30vw;color: white; font-size: 5vw;}
+#smal{position: absolute; top:70vw; left:9vw;color: white; font-size: 3vw;}
+.inf{position: absolute;top:24vw; left:-2vw;color: white; font-size: 3vw;}
+
+#dedin { position: absolute; top: 108.5vw; left: -20vw;color: white; font-size: 4.5vw;}
+#dedini { position: absolute; top:112.5vw; left:-13.5vw;color: white; font-size: 4.5vw;}
+#rei { position: absolute; top:168vw; left:-6vw;color: white; font-size: 4.5vw;}
+
+
+.spider {position: absolute; top:179vw;LEFT: 2vw;width: 25vw;}
+.spider2 {position: absolute; top: 193.1vw;LEFT: 2vw;width:25vw;}
+.last { position: absolute; top:179vw;right: -73.5vw;width: 25vw;}
+.last2{position: absolute; top: 204.1vw;right: -73.5vw;width:25vw; height: 15vw;}
+.sold{position: absolute; top:200vw;LEFT: 25vw;width: 25vw;}
+.sold2{position: absolute; top: 212.1vw;LEFT: 25vw;width:25vw;}
+
+
+
+
+
+#About1 {position: absolute;top: 294vw; left: 52vw;color: white; font-size: 2vw;}
+#About2 {position: absolute;top: 295.5vw; left: 50vw;color: white; font-size: 2vw;}
+#About3 {position: absolute;top: 0.3vw; left: -15vw;color: rgb(255, 255, 255); font-size: 2vw;}
+
+.fina3 {position: absolute;top:-42vw;left: -7.5vw;width: 25vw;height:  15vw; transition: all 2.5s ease;cursor: pointer;opacity: 1;}
+.fina3:hover {  opacity: 1;position: absolute;top: -50vw;left: -7.5vw; width: 25vw; height: 15vw;}
+.fina3:hover .fina3{ transition: 1.5s;}
+
+
+.final4 {position: absolute;top:-36vw;left: -20vw;width: 20vw; height: 15vw; transition: all 2.5s ease;cursor: pointer;opacity: 1;}
+.final4:hover {  opacity: 1;position: absolute;top:-36vw;left: -25vw;width: 20vw; height: 15vw;}
+.final4:hover .final4 {transition: 1.5s;}
+
+.final5 {position: absolute;top: -36vw;left: 10vw;width: 20vw; height: 15vw; transition: all 2.5s ease;cursor: pointer;opacity: 1;}
+.final5:hover {   opacity: 1;position: absolute;top:-36vw;left: 15vw; width: 20vw; height: 15vw;}
+.final5:hover .final5 {transition: 1.5s;}
+
+.final6 {position: absolute;top: -28vw;left: -7.5vw;width: 25vw; height: 15vw; transition: all 2.5s ease;cursor: pointer;opacity: 1;}
+.final6:hover {   opacity: 1;position: absolute;top:-23vw;left: -7.5vw;width: 25vw; height: 15vw;;}
+.final6:hover .final6 {transition: 1.5s;}
+
+.final7 {position: absolute;top: -40.5vw;left: -10vw;width: 30vw; height: 25vw; opacity: 0.7;}
+
+
